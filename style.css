@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+
+    overflow-y: auto;
+}
+.title{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fullscreen-ascii-image{
+    width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.main-text{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /*top: 50px;*/
+
+    padding: 10px 10px;
+    overflow-y:auto;
+    overflow-x:hidden;
+
+    /*text color I think*/
+    color: white;
+
+    h1{
+        color: rgb(56, 239, 111);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+}
