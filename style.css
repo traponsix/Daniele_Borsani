@@ -1,0 +1,13 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.fullscreen-ascii-image{
+    font-size: 0.67vw;
+    letter-spacing: 1px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
