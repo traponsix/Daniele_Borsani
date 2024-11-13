@@ -1,13 +1,65 @@
 *{
-    background-color: black;
     color: white;
 }
 
-.fullscreen-ascii-image{
-    font-size: 0.67vw;
-    letter-spacing: 1px;
+.background{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 
+    background-color: black;
+    
     overflow-x: hidden;
     overflow-y: auto;
 }
 
+.fullscreen-ascii-image{
+    position: absolute;
+
+    font-size: 0.67vw;
+    letter-spacing: 1px;
+}
+
+.actual-test{
+    padding: 8vw;
+
+}
+
+.div1{
+    display: inline-block;
+    width: 30%;
+    margin: 1vw;
+    background-color: aqua;
+    text-align: left;
+}
+.div2{
+    display: inline-block;
+    width: 30%;
+    margin: 1.5vw;
+    background-color: aqua;
+    text-align: center;
+}
+.div3{
+    display: inline-block;
+    width: 30%;
+    margin: 1vw;
+    background-color: aqua;
+    text-align: right;
+}
+
+.main-text{
+    width: 50vw;
+    height: fit-content;
+    position: relative;
+    margin: 0 auto;
+    top: 85vw;
+    transform: translateY(-50%);
+    
+    text-align: center;
+    background-color: aquamarine;
+}
