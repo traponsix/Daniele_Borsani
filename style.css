@@ -34,21 +34,21 @@
     display: inline-block;
     width: 30%;
     margin: 1vw;
-    background-color: aqua;
+    
     text-align: left;
 }
 .div2{
     display: inline-block;
     width: 30%;
     margin: 1.5vw;
-    background-color: aqua;
+    
     text-align: center;
 }
 .div3{
     display: inline-block;
     width: 30%;
     margin: 1vw;
-    background-color: aqua;
+    
     text-align: right;
 }
 
@@ -61,5 +61,4 @@
     transform: translateY(-50%);
     
     text-align: center;
-    background-color: aquamarine;
 }
